@@ -6,6 +6,12 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+#Indication pour trouver le code
+st.page_link("https://github.com/gmorange42/streamlit_p2/blob/main/app.py", label="Retrouve le code ici !", icon="💻")
+
+#Affichage titre
+st.title("Manipulation de donnée et création de graphiques")
+
 #Creation d'un dictionnaire contenant les fonctions pour creer differents graphs
 plot_dict = {'scatter_chart': st.scatter_chart,
              'bar_chart': st.bar_chart,
